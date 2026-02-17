@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+vendor/
+.venv/
+venv/
+env/
+
+# Build outputs
+dist/
+build/
+*.o
+*.a
+*.so
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Cache
+.cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+.tmp/
+temp/
+*.bak
